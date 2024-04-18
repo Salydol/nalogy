@@ -1,0 +1,151 @@
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+    max-height: 4500em;
+}
+
+body {
+	background: #EEE none repeat scroll 0% 0%;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.main {
+    width: 1070px;
+    margin: auto;
+
+}
+
+* {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    width: 1070px;
+    height: 51px;
+    margin: auto;
+    background: transparent url(https://old.prg.kz/templates/prg_kz/pravmedia/images/header4.png) repeat-y scroll center center;
+    position: relative;
+}
+
+.jur_link{
+	position: absolute;
+    bottom: -5px;
+    left: 872px;
+    background: url(https://old.prg.kz/templates/prg_kz/pravmedia/images/paragraf_icon_hov.png) no-repeat;
+    width: 153px;
+    height: 27px;
+    border: 0;
+}
+
+.jur_link_phone{
+	position: absolute;
+    bottom: 0px;
+    left: 705px;
+    color: #838383;
+    font-size: 15px;
+}
+
+.jur_link_phone_img {
+	position: absolute;
+    bottom: 0px;
+    left: 672px;
+    color: #838383;
+    font-size: 15px;
+}
+
+.menu {
+    padding: 0px 3px;
+    margin-top: 5px;
+}
+
+.leftshadow {
+    background: transparent url(https://old.prg.kz/templates/prg_kz/pravmedia/images/menu-left.png) no-repeat scroll left center;
+}
+.rightshadow {
+    background: transparent url(https://old.prg.kz/templates/prg_kz/pravmedia/images/menu-right.png) no-repeat scroll right center;
+}
+.preblock {
+    padding: 0px 13px;
+}
+.block {
+    background: #FFF url(https://old.prg.kz/templates/prg_kz/pravmedia/images/menu.png) repeat-x scroll center center;
+    height: 59px;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+table {
+    width: 100%;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+.menu table a {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    line-height: 41px;
+    font-size: 14px;
+}
+.papershadow {
+	width: 1056px;
+    margin: auto;
+    background: #FFF url(https://prg.kz/templates/prg_kz/pravmedia/images/shadow.png) repeat-y scroll center center;
+}
+.paper_cont {
+	padding: 0px 9px;
+}
+.answer_title {
+	position: relative;
+    text-align: left;
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    font-family: tahoma;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+a:link {
+    text-decoration: none;
+}
+.navigation, .navigation a, .navigation span, .bnnavi, .nextprev, .nextprev .thide {
+    float: left;
+}
+.block_questions_jur .basenavi a {
+    color: #000000;
+    text-decoration: none;
+}
+.block_questions_jur .basenavi {
+    margin-left: 0px;
+}
+.navigation span {
+    text-align: center;
+    display: block;
+    height: 20px;
+    margin-right: 5px;
+    width: 20px;
+    padding: 0px;
+    color: #fff;
+    background: url(https://prg.kz/templates/prg_kz/images/red_pages.png) no-repeat;
+}
+.navigation a {
+    text-align: center;
+    display: block;
+    height: 18px;
+    margin-right: 5px;
+    width: 18px;
+    padding: 0px;
+    border: 1px solid #bfbfbf;
+}
